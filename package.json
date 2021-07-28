@@ -1,0 +1,23 @@
+{
+  "name": "aula14",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e yaml,js,json --exec node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^8.6.0",
+    "ajv-formats": "^2.1.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "swagger-ui-express": "^4.1.6",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
