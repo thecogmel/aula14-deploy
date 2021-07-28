@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon -e yaml,js,json --exec node index.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
